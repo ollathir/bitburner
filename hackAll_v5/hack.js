@@ -1,0 +1,1 @@
+/** @param {NS} ns */ export async function main(ns) { var hck = await ns.hack( ns.args[0] ); await ns.writePort(20,hck); }
