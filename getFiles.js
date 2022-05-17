@@ -1,4 +1,4 @@
-async export function main(ns) {
+export async function main(ns) {
 	for (var file of files) {
 		await ns.wget( "https://raw.githubusercontent.com/ollathir/bitburner/main/" + file, file, "home");
 	}
