@@ -1,8 +1,8 @@
 export async function main(ns) {
-	for (var file of files) {
-		await ns.wget( "https://raw.githubusercontent.com/ollathir/bitburner/main/" + file, file, "home");
-	}
-}
+    for (var file of files) {
+        await ns.wget( "https://raw.githubusercontent.com/ollathir/bitburner/main/" + file, file, "home");
+    }
+ }
 
 const files = [
 "/backup/createGang.js",
@@ -63,7 +63,6 @@ const files = [
 "/bb-vue/new-examples/3-controlling-your-app.js",
 "/bb-vue/new-examples/4-sending-data-from-scripts.js",
 "/bb-vue/new-examples/5-demo-app.js",
-"/bb-vue/package.txt",
 "/bladeBurner/autoHospital.js",
 "/bladeBurner/main.js",
 "/bladeBurner/run.js",
@@ -133,37 +132,21 @@ const files = [
 "/stocks/stocks2.js",
 "/stocks/stocks3.js",
 "/stocks/weaken.js",
-"AutoLink.exe",
-"BruteSSH.exe",
-"DeepscanV1.exe",
-"FTPCrack.exe",
-"Formulas.exe",
-"NUKE.exe",
-"ServerProfiler.exe",
 "activity.js",
-"b1t_flum3.exe",
 "bbv-inst.js",
 "crimeStats.js",
-"csec-test.msg",
 "downloadFiles.js",
-"files.txt",
-"fl1ght.exe",
 "functions.js",
 "gangs-activity.js",
 "getFiles.js",
+"getFilesGenerator.js",
 "getServers.js",
 "gotoServer.js",
 "grindRep.js",
 "hackallv4.js",
-"hackers-starting-handbook.lit",
-"j0.msg",
-"j1.msg",
-"j2.msg",
 "listservers2.js",
-"nitesec-test.msg",
 "printTable.js",
 "purchaseServerAuto.js",
-"relaySMTP.exe",
 "start.js",
 "status.js",
 "stock-activity.js",
